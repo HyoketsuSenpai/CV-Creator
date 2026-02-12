@@ -1,0 +1,87 @@
+.CV {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    margin: 30px;
+
+}
+
+
+.PI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.PI > h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.PI > p {
+    padding: 0;
+    margin: 6px 0 0 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+
+.EI,
+.WI {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 18px;
+    width: 100%;
+}
+
+.EI > h2,
+.WI > h2 {
+    margin: 0 0 6px 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+    width: 100%;
+}
+
+.EI > h3,
+.WI > h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.EI > div,
+.WI > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.EI p,
+.WI p {
+    margin: 0;
+    color: #333;
+    line-height: 1.3;
+}
+
+.WI > div > div > p:first-child {
+    font-weight: 600;
+}
+
+.CV hr {
+  width: 100%;
+}
